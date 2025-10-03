@@ -1,0 +1,1006 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #666666;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Margin, padding, font family and container for all  */
+/* Header section starts from here  */
+/* Top header section starts from here  */
+
+header .top-header {
+  background-color: #095dc7;
+  padding: 15px 0;
+}
+header .top-header .container .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+header .top-header .container .wrapper .leftside ul {
+  list-style-type: none;
+}
+
+header .top-header .container .wrapper .leftside ul li {
+  display: inline-block;
+  padding-right: 15px;
+}
+
+header .top-header .container .wrapper .leftside ul li a {
+  color: #ffffff;
+}
+
+header .top-header .container .wrapper .rightside ul {
+  list-style-type: none;
+  text-align: right;
+}
+
+header .top-header .container .wrapper .rightside ul li {
+  display: inline-block;
+  padding-right: 30px;
+}
+
+header .top-header .container .wrapper .rightside ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header .top-header .container .wrapper .rightside ul li i {
+  padding-right: 10px;
+}
+
+/* Top header section ends here 
+Nav section starts from here  */
+
+header .nav {
+  padding: 30px 0;
+}
+
+header .nav .container .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+header .nav .container .wrapper .rightside {
+  align-content: center;
+}
+
+header .nav .container .wrapper .rightside ul {
+  list-style-type: none;
+  text-align: right;
+}
+
+header .nav .container .wrapper .rightside ul li {
+  display: inline-block;
+  padding-right: 38px;
+}
+
+header .nav .container .wrapper .rightside ul li a {
+  color: #012c44;
+  text-decoration: none;
+}
+
+/* Nav section ends here 
+Header section ends here  */
+/* Section 1 starts from here  */
+
+.section1 {
+  background-image: url(Photos/section1\ banner.jpg);
+  width: 100%;
+  background-size: cover;
+  min-height: 850px;
+  background-repeat: no-repeat;
+  align-content: center;
+}
+
+.section1 .container .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.section1 .container .wrapper .leftside h1 {
+  font-size: 72px;
+  font-weight: 500;
+  color: white;
+}
+
+.section1 .container .wrapper .leftside p {
+  padding-top: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+
+.section1 .container .wrapper .leftside .btn {
+  padding-top: 50px;
+}
+
+.section1 .container .wrapper .leftside .btn a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 17px 38px;
+  border-radius: 9999px;
+}
+
+.section1 .container .wrapper .leftside .btn a:nth-child(1) {
+  margin-right: 28px;
+  background-color: #85af4b;
+  border: 1px solid #85af4b;
+}
+
+.section1 .container .wrapper .leftside .btn a:hover {
+  border: 1px solid #85af4b;
+  background-color: #85af4b;
+}
+
+.section1 .container .wrapper .leftside .btn a:nth-child(1):hover {
+  border: 1px solid #ffffff;
+  background-color: #85af4b00;
+}
+
+/* Section 1 ends here 
+Section 2 starts from here  */
+
+.section2 .container .wrapper {
+  margin: 118px 0;
+}
+
+.section2 .container .wrapper .top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.section2 .container .wrapper .top .leftside::after {
+  content: "";
+  position: absolute;
+  background-image: url(Photos/divider.png);
+  width: 100px;
+  height: 115px;
+  background-repeat: no-repeat;
+  right: 50%;
+  top: 1100px;
+}
+
+.section2 .container .wrapper .top .leftside h1 {
+  font-size: 36px;
+  font-weight: 500;
+  position: relative;
+}
+.section2 .container .wrapper .bottom {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.section2 .container .wrapper .bottom div {
+  text-align: center;
+}
+
+.section2 .container .wrapper .bottom div p {
+  padding: 25px 25px;
+}
+
+.section2 .container .wrapper .bottom div h3 {
+  padding-top: 30px;
+}
+
+.section2 .container .wrapper .bottom div a {
+  text-decoration: none;
+  color: black;
+  font-size: 21px;
+  font-weight: 500;
+}
+/* Section 2 ends here 
+Section 3 starts from here  */
+
+.section3 .top {
+  background-image: url(Photos/section3\ top.jpg);
+  width: 100%;
+  background-size: cover;
+  min-height: 611px;
+  background-repeat: no-repeat;
+  align-content: center;
+}
+
+.section3 .top .container .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.section3 .top .container .wrapper .rightside h1 {
+  font-size: 36px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+.section3 .top .container .wrapper .rightside p {
+  padding: 50px 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #666666;
+}
+
+.section3 .top .container .wrapper .rightside .btn a {
+  text-decoration: none;
+  color: #095dc7;
+  border: 1px solid #e6e6e6;
+  background-color: #e6e6e6;
+  padding: 17px 38px;
+  border-radius: 9999px;
+}
+
+.section3 .bottom {
+  background-image: url(Photos/section3\ bottom.jpg);
+  width: 100%;
+  background-size: cover;
+  min-height: 270px;
+  background-repeat: no-repeat;
+  align-content: center;
+}
+
+.section3 .bottom .container .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.section3 .bottom .container .wrapper div {
+  text-align: center;
+}
+
+.section3 .bottom .container .wrapper div p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #727272;
+}
+
+/* Section 3 ends here 
+Section 4 starts from here  */
+
+.section4 .container .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.section4 .container .wrapper .leftside {
+  padding: 125px 25px;
+}
+
+.section4 .container .wrapper .leftside h2 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.section4 .container .wrapper .leftside pre {
+  padding: 45px 0;
+}
+
+.section4 .container .wrapper .leftside .profile {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.section4 .container .wrapper .leftside .profile p {
+  align-content: center;
+  margin-left: -80px;
+}
+
+.section4 .container .wrapper .leftside .profile p b {
+  color: black;
+  font-weight: 600;
+}
+
+.section4 .container .wrapper .rightside {
+  align-content: center;
+}
+
+.section4 .container .wrapper .rightside video {
+  width: 100%;
+}
+
+.section4 .container .wrapper .rightside h2 {
+  font-size: 36px;
+  font-weight: 500;
+  padding-bottom: 45px;
+}
+
+.section4 .container .wrapper .rightside .parent-container {
+  padding: 0 20px 25px 20px;
+  max-width: 800px;
+  width: 100%;
+}
+
+.section4 .container .wrapper .rightside .faq {
+  list-style: none;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+.section4 .container .wrapper .rightside .faq li {
+  border-bottom: 1px solid #999999;
+  margin-bottom: 15px;
+}
+
+.section4 .container .wrapper .rightside .faq li.active .answer {
+  max-height: 275px !important;
+  padding-bottom: 25px;
+  transition: max-height 0.5s ease, padding-bottom 0.5s ease;
+}
+
+.section4 .container .wrapper .rightside .faq li.active .question {
+  color: var(--primary_color);
+  transition: color 0.5s ease;
+}
+
+.section4 .container .wrapper .rightside .faq .answer {
+  color: black;
+  font-size: 16px;
+  line-height: 24px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, padding-bottom 0.5s ease;
+}
+
+.section4 .container .wrapper .rightside .faq .plus-minus-toggle {
+  cursor: pointer;
+  height: 21px;
+  position: absolute;
+  width: 21px;
+  left: -40px;
+  top: 50%;
+  z-index: 2;
+}
+
+.section4 .container .wrapper .rightside .question {
+  position: relative;
+}
+
+.section4 .container .wrapper .rightside .question::before {
+  content: "";
+  position: absolute;
+  width: 33px;
+  height: 33px;
+  border-radius: 50px;
+  background-color: rgba(128, 128, 128, 0.402);
+  left: -46px;
+}
+
+.section4 .container .wrapper .rightside .faq li.active .question {
+  color: #095dc7;
+}
+.section4 .container .wrapper .rightside .faq li.active .question::before {
+  background-color: #095dc7;
+}
+
+.section4
+  .container
+  .wrapper
+  .rightside
+  .faq
+  li.active
+  .plus-minus-toggle:after {
+  background-color: white;
+}
+
+.section4 .container .wrapper .rightside .faq .plus-minus-toggle:before,
+.section4 .container .wrapper .rightside .faq .plus-minus-toggle:after {
+  background: black;
+  content: "";
+  height: 5px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 21px;
+  transition: transform 500ms ease;
+}
+
+.section4 .container .wrapper .rightside .faq .plus-minus-toggle:after {
+  transform-origin: center;
+}
+
+.section4
+  .container
+  .wrapper
+  .rightside
+  .faq
+  .plus-minus-toggle.collapsed:after {
+  transform: rotate(90deg);
+}
+
+.section4
+  .container
+  .wrapper
+  .rightside
+  .faq
+  .plus-minus-toggle.collapsed:before {
+  transform: rotate(180deg);
+}
+
+.section4 .container .wrapper .rightside .faq .question {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  position: relative;
+  cursor: pointer;
+  padding: 20px 0;
+  transition: color 0.5s ease;
+}
+
+/* Section 4 ends here 
+Section 5 starts from here  */
+
+.section5 {
+  background-image: url(Photos/section\ 5\ banner.jpg);
+  width: 100%;
+  background-size: cover;
+  min-height: 460px;
+  background-repeat: no-repeat;
+  align-content: center;
+  text-align: center;
+}
+
+.section5 h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: white;
+}
+
+.section5 p {
+  color: rgb(255, 255, 255);
+  padding: 50px 0;
+}
+
+.section5 a {
+  text-decoration: none;
+  background-color: #85af4b;
+  border: 1px solid #85af4b;
+  padding: 17px 38px;
+  border-radius: 9999px;
+  color: white;
+}
+
+/* Section 5 ends here 
+Section 6 starts from here  */
+
+.section6 {
+  align-content: center;
+  text-align: center;
+  padding: 120px 0;
+}
+
+.section6 .container .gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  padding-top: 50px;
+}
+
+/* Section 6 ends here 
+Section 7 starts from here  */
+
+.section7 {
+  background-image: url(Photos/section7\ banner.jpg);
+  width: 100%;
+  background-size: cover;
+  min-height: 700px;
+  background-repeat: no-repeat;
+  align-content: center;
+  text-align: center;
+}
+
+.section7 h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: white;
+}
+
+.section7 p {
+  color: rgb(255, 255, 255);
+  padding: 50px 0;
+}
+
+/* Section 7 ends here 
+Section 8 starts from here  */
+
+.section8 {
+  align-content: center;
+  text-align: center;
+  padding: 120px 0;
+}
+
+.section8 h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+.section8 .container .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  padding-top: 50px;
+  text-align: left;
+}
+
+.section8 .container .wrapper div h2 {
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 25px;
+  padding-bottom: 12.5px;
+}
+
+.section8 .container .wrapper div h3 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #666666;
+}
+
+.section8 .container .wrapper div p {
+  padding: 25px 0;
+}
+
+.section8 .container .wrapper div .icons ul {
+  list-style-type: none;
+}
+
+.section8 .container .wrapper div .icons ul li {
+  display: inline-block;
+}
+
+.section8 .container .wrapper div .icons ul li a {
+  color: #666666;
+  padding-right: 15px;
+}
+
+/* Section 8 ends here 
+Section 9 starts from here  */
+
+.section9 {
+  background-image: url(Photos/section9\ banner.jpg);
+  width: 100%;
+  background-size: cover;
+  min-height: 214px;
+  background-repeat: no-repeat;
+  align-content: center;
+  text-align: center;
+}
+
+.section9 .container .wrapper img {
+  padding: 0 73px;
+}
+
+/* Section 9 ends here 
+Footer section starts from here  */
+
+footer {
+  background-image: url(photos/main\ footer\ banner.jpg);
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer .container .wrapper {
+  padding: 90px 0;
+  display: flex;
+  gap: 50px;
+}
+
+footer .container .wrapper h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 25px;
+}
+
+footer .container .wrapper .one {
+  width: 220px;
+  flex: 0 0 auto;
+}
+
+footer .container .wrapper .one a {
+  text-decoration: none;
+  color: #bbbbbb;
+  padding-top: 25px;
+  display: inline-block;
+}
+
+footer .container .wrapper .one a i {
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0);
+  padding: 15px;
+  border-radius: 50%;
+}
+
+footer .container .wrapper .one a:nth-child(1) i {
+  padding: 15px 18px;
+  background-color: #365493;
+}
+footer .container .wrapper .one a:nth-child(2) i {
+  background-color: #33ccff;
+}
+footer .container .wrapper .one a:nth-child(3) i {
+  background-color: #d44132;
+}
+footer .container .wrapper .one a:nth-child(4) i {
+  padding: 15px 18px;
+  background-color: #cb2027;
+}
+
+footer .container .wrapper .two {
+  width: 140px;
+  flex: 0 0 auto;
+}
+
+footer .container .wrapper .two ul li {
+  list-style-type: none;
+}
+
+footer .container .wrapper .two ul li a {
+  text-decoration: none;
+  color: #bbbbbb;
+  display: inline-block;
+  padding-bottom: 12px;
+}
+
+footer .container .wrapper .three .new1 {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding-bottom: 10px;
+}
+
+footer .container .wrapper .three .new2 {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+footer .container .wrapper .three p {
+  margin: 0 10px;
+}
+footer .container .wrapper .four p {
+  margin-bottom: 20px;
+}
+footer .container .wrapper .four input {
+  padding: 20px 60px;
+  background-color: #365493;
+  border: none;
+  text-align: center;
+}
+
+footer .container .wrapper .four a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid #85af4b;
+  padding: 20px 94px;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #85af4b;
+}
+
+footer .socket {
+  background-image: url(Photos/socket.jpg);
+  min-height: 80px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-content: center;
+}
+
+footer .socket .container .wrapper1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+footer .socket .container .wrapper1 .rightside ul {
+  list-style-type: none;
+  text-align: right;
+}
+footer .socket .container .wrapper1 .rightside ul li {
+  padding-left: 25px;
+  display: inline-block;
+}
+
+footer .socket .container .wrapper1 .rightside ul li a {
+  text-decoration: none;
+  color: #999999;
+}
+
+footer .socket .container .wrapper1 .rightside ul li a:hover {
+  color: white;
+}
+
+/* Footer section ends here 
+Homepage ends here 
+__________________________________________________________________ */
+
+/* Banner section starts from here  */
+
+.banner {
+  min-height: 400px;
+  background-image: url(Photos/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 72px;
+  font-weight: 500;
+  color: white;
+}
+
+.banner p {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Banner section ends here  */
+/* Content section starts from here  */
+/* Left side section starts from here  */
+
+.content {
+  padding: 80px 0;
+}
+
+.content .container .wrapper {
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+}
+
+.content .container .wrapper .leftside .section-a h3 {
+  padding: 40px 0;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.content .container .wrapper .leftside .section-a p {
+  margin-right: 100px;
+}
+
+.content .container .wrapper .leftside .section-a .meta {
+  display: flex;
+  padding: 15px;
+  flex-wrap: wrap;
+  border: 1px solid rgba(128, 128, 128, 0.219);
+  margin: 40px 50px 40px 0;
+}
+
+.content .container .wrapper .leftside .section-a .meta .left {
+  width: 80%;
+}
+
+.content .container .wrapper .leftside .section-a .meta .left ul {
+  list-style-type: none;
+}
+.content .container .wrapper .leftside .section-a .meta .left ul li {
+  display: inline-flex;
+  padding-right: 20px;
+}
+.content .container .wrapper .leftside .section-a .meta .left ul li p {
+  margin: 0;
+}
+
+.content .container .wrapper .leftside .section-a .meta .left ul li i {
+  padding-right: 10px;
+  color: #095dc7;
+}
+
+.content .container .wrapper .leftside .section-a .meta .right {
+  width: 20%;
+}
+
+.content .container .wrapper .leftside .section-a .meta .right a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Left side section ends here 
+Right side section starts from here  */
+
+.content .container .wrapper .rightside h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.content .container .wrapper .rightside h4::before {
+  content: "";
+  position: absolute;
+  background-image: url(Photos/heading\ mark.jpg);
+  width: 100%;
+  height: 2px;
+  background-repeat: no-repeat;
+  bottom: -15px;
+}
+
+.content .container .wrapper .rightside .section-a p {
+  margin-bottom: 25px;
+}
+
+.content .container .wrapper .rightside .section-a .form {
+  position: relative;
+  display: inline-block;
+}
+.content .container .wrapper .rightside .section-a .form input {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.content .container .wrapper .rightside .section-a .form i {
+  position: absolute;
+  right: -25px;
+  top: 22px;
+  color: #095dc7;
+}
+
+.content .container .wrapper .rightside .section-b .popular-content {
+  gap: 20px;
+}
+
+.content
+  .container
+  .wrapper
+  .rightside
+  .section-b
+  .popular-content
+  .content-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-bottom: 20px;
+}
+
+.content
+  .container
+  .wrapper
+  .rightside
+  .section-b
+  .popular-content
+  .content-item
+  .right
+  .comment {
+  display: inline-flex;
+  margin-top: 20px;
+}
+
+.content
+  .container
+  .wrapper
+  .rightside
+  .section-b
+  .popular-content
+  .content-item
+  .right
+  .comment
+  i {
+  padding-right: 10px;
+  color: #095dc7;
+}
+
+.content .container .wrapper .rightside .ad img {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.content .container .wrapper .rightside .projects .project-pic {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+/* Right side section ends here 
+Blog page ends here 
+________________________________________________________________________
+Project page starts from here  */
+
+.projects .container .wrapper {
+  text-align: center;
+}
+
+.projects .container .wrapper ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 85px 0 50px 0;
+  justify-content: center;
+}
+
+.projects .container .wrapper ul li {
+  display: inline-block;
+}
+
+.projects .container .wrapper ul li a {
+  text-decoration: none;
+  padding: 8px 12px;
+  display: block;
+  color: black;
+}
+
+.projects .container .wrapper ul li a:hover {
+  color: #095dc7;
+}
+
+.projects .container .wrapper .project-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 20px;
+  margin-bottom: 150px;
+}
+
+.projects .container .wrapper .project-gallery img {
+  width: 370px;
+  height: 300px;
+}
+
+/* Project page ends here  */
+
+/* Forum section starts from here  */
+
+.forum .container .wrapper {
+  margin: 100px 0;
+  gap: 50px;
+}
+.forum .container .wrapper h2 {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.forum .container .wrapper form input,
+textarea {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-color: gray;
+}
+
+.forum .container .wrapper form div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 23px;
+  gap: 30px;
+}
+
+.forum .container .wrapper form textarea {
+  margin: 23px 0;
+  resize: none;
+  height: 150px;
+}
+
+.forum .container .wrapper form button {
+  padding: 13px 36px;
+  border: 1px solid #173a69;
+  background-color: #095dc7;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  border-radius: 100px;
+}
+
+/* Forum section ends here  */
+
+iframe {
+  width: 100%;
+}
